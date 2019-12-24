@@ -59,13 +59,38 @@
             <div class="col-sm-10 ">
                 <h3 class="pb-2 border-bottom">Data Table</h3>
 
-                <div class="col-12 mt-4 border rounded bg-caixa shadow-box-princ">
-                    <!-- <form class="form-inline">
-                        <div class="col-12 pt-3 pl-2">
-                            <h5>Subtitulo</h5>
+                <div class="col-12">
+                    <form>
+                        <div class="form-row">
+                          <div class="col-3 ">
+                            <input type="search" class="form-control pesquisar bg-transparent text-secondary" placeholder="pesquisar">
+                          </div>
+                          <div class="col-3 ml-auto mr-5">
+                            <button type="button" class="btn btn-green"><i class="fas fa-plus pr-2"></i> Adicionar</button>
+                          </div>
                         </div>
+                      </form>
+                </div>
 
-                    </form> -->
+                <div class="col-12 mt-4 border rounded bg-caixa shadow-box-princ">
+                    <table id="table_id" class="display">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" class="w-auto"></th>
+                                <th>Column 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Row 1 Data 1</td>
+                                <td>Row 1 Data 2</td>
+                            </tr>
+                            <tr>
+                                <td>Row 2 Data 1</td>
+                                <td>Row 2 Data 2</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                 </div>
             </div>

@@ -24,7 +24,6 @@ label{
     color: rgba(0,0,0,0.54);
 }
 
-
 .btn-green{
     background: #1AD372 !important;
     color:#FFFFFF !important;
@@ -52,10 +51,18 @@ input,select{
     border-radius: 8px;
 }
 
+.w-auto{
+    width: auto!important;;
+}
+
 @media (min-width: 767px) {
     input,select{
-        width: 32rem !important;
-        height: 2rem !important;
+        width: 24rem !important;
+        height: 3rem !important;
+    }
+
+    button{
+        height: 3rem !important;
     }
 }
 
@@ -68,3 +75,7 @@ a.nav-link:hover{
 }
 
 
+.pesquisar{
+    width: 20rem !important;
+    height: 3rem !important;
+}
