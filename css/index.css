@@ -23,8 +23,6 @@ h1, h2, h3, h4, h5 {
     color: #1AD372;
 }
 
-
-
 label {
     color: rgba(0, 0, 0, 0.54);
 }
@@ -64,9 +62,9 @@ a.nav-link:hover {
     color: #1AD372;
 }
 
-input[type=text],input[type=search], .form-group select {
+input[type=text], input[type=search], .form-group select {
     border-radius: 8px !important;
-    width: auto !important;
+    width: 100% !important;
     height: auto !important;
 }
 
@@ -74,7 +72,7 @@ button {
     height: auto !important;
 }
 
-.pesquisar[type=search]{
+.pesquisar[type=search] {
     width: auto !important;
     height: auto !important;
 }
@@ -87,17 +85,12 @@ button {
     button {
         height: 3rem !important;
     }
-    .pesquisar[type=search]{
+    .pesquisar[type=search] {
         width: 12rem !important;
         height: 3rem !important;
     }
-
-    .cadastrar{
+    .cadastrar {
         width: 10rem !important;
         float: right !important;
     }
 }
-
-/* td input[type=checkbox]{
-    text-align: center !important;
-} */

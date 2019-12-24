@@ -25,14 +25,11 @@
 </head>
 
 <body class="bg-light">
-    <div class="container-fluid ">
+    <div class="container-fluid mb-4">
 
         <div class="row">
-            <!-- <button class="navbar-toggler collapsed" id="main" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-justify icon-color" onclick="openNav()"></i>
-                </button> -->
-            <div class="col-sm-2 pt-3 bg-white">
 
+            <div class="col-sm-2 pt-3 bg-white d-none d-lg-block">
                 <div class="logo border border-dark">
                     <h3 class="p-3 text-center text-dark">Logo</h3>
                 </div>
@@ -53,12 +50,40 @@
                         <a class="nav-link" href="#"><i class="fas fa-shield-alt  pr-3"></i>Opção 5</a>
                     </li>
                 </ul>
-
             </div>
+
+            <nav class="navbar navbar-expand-lg col-12 navbar-light bg-white d-block d-lg-none">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item d-inline">
+                            <a class="nav-link" href="../Index.php"><i class="fas fa-cubes pr-3"></i>index</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Paginas/Dashboard.php"><i
+                                    class="far fa-file  pr-3"></i>Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Paginas/DataTable.php"><i class="far fa-star  pr-3"></i>Data
+                                Table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="far fa-id-badge  pr-3"></i>Opção 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shield-alt  pr-3"></i>Opção 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
             <div class="col-sm-10 pt-3">
                 <h3 class="pb-2 border-bottom">Data Table</h3>
-
                 <div class="col-12">
                     <form>
                         <div class="form-row">
@@ -76,7 +101,8 @@
 
                 <div class="col-12 mt-4 border rounded bg-caixa shadow-box-princ">
                     <div class="table-responsive">
-                        <table id="example" class="table table-striped  dt-responsive nowrap" cellspacing="0" width="100%">
+                        <table id="example" class="table table-striped  dt-responsive nowrap" cellspacing="0"
+                            width="100%">
                             <thead>
                                 <tr>
                                     <th><input type="checkbox" id="checkall" /></th>
@@ -85,33 +111,25 @@
                                     <th>Status</th>
                                     <th>Última Alteração</th>
                                     <th></th>
-
                                 </tr>
                             </thead>
-        
                         </table>
-
-
                     </div>
-
                 </div>
             </div>
         </div>
-
-
     </div>
 
 
+    <script src='../js/jquery/jquery-3.3.1.min.js'></script>
+    <script src='../js/jquery/jquery-ui.min.js'></script>
+
+    <script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js'></script>
+    <script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.min.js'></script>
+
+    <script src='../lib/datatables/datatables.min.js'></script>
+    <script src='../js/DataTable.js'></script>
+
 </body>
-
-
-<script src='../js/jquery/jquery-3.3.1.min.js'></script>
-<script src='../js/jquery/jquery-ui.min.js'></script>
-
-<script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js'></script>
-<script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.min.js'></script>
-
-<script src='../lib/datatables/datatables.min.js'></script>
-<script src='../js/index.js'></script>
 
 </html>

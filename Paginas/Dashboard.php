@@ -26,11 +26,7 @@
     <div class="container-fluid ">
 
         <div class="row">
-            <!-- <button class="navbar-toggler collapsed" id="main" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-justify icon-color" onclick="openNav()"></i>
-                </button> -->
-            <div class="col-sm-2 pt-3 bg-white">
-
+            <div class="col-sm-2 pt-3 bg-white d-none d-lg-block">
                 <div class="logo border border-dark">
                     <h3 class="p-3 text-center text-dark">Logo</h3>
                 </div>
@@ -51,8 +47,35 @@
                         <a class="nav-link" href="#"><i class="fas fa-shield-alt  pr-3"></i>Opção 5</a>
                     </li>
                 </ul>
-
             </div>
+
+            <nav class="navbar navbar-expand-lg col-12 navbar-light bg-white d-block d-lg-none">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item d-inline">
+                            <a class="nav-link" href="../Index.php"><i class="fas fa-cubes pr-3"></i>index</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Dashboard.php"><i class="far fa-file  pr-3"></i>Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="DataTable.php"><i class="far fa-star  pr-3"></i>Data Table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="far fa-id-badge  pr-3"></i>Opção 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shield-alt  pr-3"></i>Opção 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
             <div class="col-sm-10 pt-3">
                 <h3 class="pb-2 border-bottom">Dashboard</h3>
@@ -77,42 +100,51 @@
                         <div class="tab-pane fade show active text-align form-new" id="indgerais" role="tabpanel">
                             <div class="row my-3">
                                 <div class="col-12 col-md-4">
-                                    <div class="card">
+                                    <div class="card  mt-3 mt-md-auto mb-3 mb-md-auto">
 
                                         <div class="card-body">
                                             <p class="card-title text-secondary">Cartões disponíveis</p>
                                             <p class="card-text">
-                                                <span class="border rounded-circle bg-light p-1 txt-green"><i class="far fa-credit-card p-1"></i></span> <span class="px-4">0000</span> <i class="fas fa-angle-right float-right"></i>
+                                                <span class="border rounded-circle bg-light p-1 txt-green"><i
+                                                        class="far fa-credit-card"></i></span> <span
+                                                    class="px-4">0000</span> <i
+                                                    class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="col-12 col-md-4">
-                                    <div class="card">
+                                    <div class="card mt-3 mt-md-auto mb-3 mb-md-auto">
 
                                         <div class="card-body">
                                             <p class="card-title text-secondary">Membros em análise</p>
                                             <p class="card-text">
-                                                <span class="border rounded-circle bg-light p-1 text-primary"><i class="far fa-id-badge p-1"></i></span> <span class="px-4">0000</span> <i class="fas fa-angle-right float-right"></i>
+                                                <span class="border rounded-circle bg-light p-1 text-primary"><i
+                                                        class="far fa-id-badge p-1"></i></span> <span
+                                                    class="px-4">0000</span> <i
+                                                    class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="col-12 col-md-4">
-                                    <div class="card">
+                                    <div class="card mt-3 mt-md-auto mb-3 mb-md-auto">
 
                                         <div class="card-body">
                                             <p class="card-title text-secondary">Membros cadastrados</p>
                                             <p class="card-text">
-                                                <span class="border rounded-circle bg-light p-1 text-primary"><i class="fas fa-check p-1"></i></span> <span class="px-4">0000</span> <i class="fas fa-angle-right float-right"></i>
+                                                <span class="border rounded-circle bg-light p-1 text-primary"><i
+                                                        class="fas fa-check p-1"></i></span> <span
+                                                    class="px-4">0000</span> <i
+                                                    class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
 
-                               
+
                             </div>
 
                         </div>
@@ -126,15 +158,12 @@
         </div>
     </div>
 
+    <script src='../js/index.js'></script>
+    <script src='../js/jquery/jquery-3.3.1.min.js'></script>
+    <script src='../js/jquery/jquery-ui.min.js'></script>
 
-
+    <script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js'></script>
+    <script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.min.js'></script>
 </body>
-
-<script src='../js/index.js'></script>
-<script src='../js/jquery/jquery-3.3.1.min.js'></script>
-<script src='../js/jquery/jquery-ui.min.js'></script>
-
-<script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js'></script>
-<script src='../lib/bootstrap-4.3.1-dist/js/bootstrap.min.js'></script>
 
 </html>
