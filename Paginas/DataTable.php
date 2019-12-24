@@ -82,7 +82,7 @@
                 </div>
             </nav>
 
-            <div class="col-sm-10 pt-3">
+            <div class="col-12 col-lg-10 pt-3">
                 <h3 class="pb-2 border-bottom">Data Table</h3>
                 <div class="col-12">
                     <form>
