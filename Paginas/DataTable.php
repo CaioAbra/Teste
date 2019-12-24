@@ -65,11 +65,11 @@
                             <a class="nav-link" href="../Index.php"><i class="fas fa-cubes pr-3"></i>index</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Paginas/Dashboard.php"><i
+                            <a class="nav-link" href="Dashboard.php"><i
                                     class="far fa-file  pr-3"></i>Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Paginas/DataTable.php"><i class="far fa-star  pr-3"></i>Data
+                            <a class="nav-link" href="DataTable.php"><i class="far fa-star  pr-3"></i>Data
                                 Table</a>
                         </li>
                         <li class="nav-item">
