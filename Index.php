@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
-    
+
     <link rel='stylesheet' type='text/css' media='screen' href='lib/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='lib/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='lib/bootstrap-4.3.1-dist/css/bootstrap.min.css'>
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
                 oi
