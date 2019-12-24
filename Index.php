@@ -24,11 +24,11 @@
 <body class="bg-light">
     <div class="container-fluid ">
 
-        <div class="row mt-3">
+        <div class="row">
                 <!-- <button class="navbar-toggler collapsed" id="main" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-align-justify icon-color" onclick="openNav()"></i>
                 </button> -->
-            <div class="col-sm-2 bg-white"> 
+            <div class="col-sm-2 pt-3 bg-white"> 
                 
                 <div class="logo border border-dark">
                     <h3 class="p-3 text-center text-dark">Logo</h3>
@@ -53,7 +53,7 @@
 
             </div>
 
-            <div class="col-sm-10 ">
+            <div class="col-sm-10 pt-3">
                 <h3 class="pb-2 border-bottom">Título da página</h3>
 
                 <div class="col-12 mt-4 border rounded bg-caixa shadow-box-princ">
