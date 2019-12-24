@@ -30,7 +30,7 @@
                 </div>
                 <ul class="nav flex-column text-sm-center text-md-left">
                     <li class="nav-item d-inline">
-                        <a class="nav-link" href="#"><i class="fas fa-cubes pr-3"></i>>Opção 1</span></a>
+                        <a class="nav-link" href="#"><i class="fas fa-cubes pr-3"></i>Opção 1</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="far fa-file  pr-3"></i>Opção 2</a>
@@ -156,9 +156,9 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row my-3">
                            <div class="col-12  col-lg-4">
-                                <a class="btn btn-green" href="#" role="button">Link</a>
+                                <a class="btn btn-green" href="#" role="button">Main <button></button></a>
                            </div>
                         </div>
 
