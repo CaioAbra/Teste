@@ -22,21 +22,26 @@
 </head>
 
 <body class="bg-light">
-    <div class="container-fluid">
+    <div class="container-fluid ">
+
         <div class="row mt-3">
-            <div class="col-sm-2 bg-white">
+                <!-- <button class="navbar-toggler collapsed" id="main" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify icon-color" onclick="openNav()"></i>
+                </button> -->
+            <div class="col-sm-2 bg-white"> 
+                
                 <div class="logo border border-dark">
                     <h3 class="p-3 text-center text-dark">Logo</h3>
                 </div>
                 <ul class="nav flex-column text-sm-center text-md-left">
                     <li class="nav-item d-inline">
-                        <a class="nav-link" href="#"><i class="fas fa-cubes pr-3"></i>Opção 1</span></a>
+                        <a class="nav-link" href="Index.php"><i class="fas fa-cubes pr-3"></i>index</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="far fa-file  pr-3"></i>Opção 2</a>
+                        <a class="nav-link" href="Paginas/Dashboard.php"><i class="far fa-file  pr-3"></i>Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="far fa-star  pr-3"></i>Opção 3</a>
+                        <a class="nav-link" href="Paginas/DataTable.php"><i class="far fa-star  pr-3"></i>Data Table</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="far fa-id-badge  pr-3"></i>Opção 4</a>
@@ -45,7 +50,7 @@
                         <a class="nav-link" href="#"><i class="fas fa-shield-alt  pr-3"></i>Opção 5</a>
                     </li>
                 </ul>
-                <!-- <div class="fixed-bottom">...</div> -->
+
             </div>
 
             <div class="col-sm-10 ">
@@ -158,7 +163,8 @@
 
                         <div class="row my-3">
                            <div class="col-12  col-lg-4">
-                                <a class="btn btn-green" href="#" role="button">Main <button></button></a>
+                                <!-- <a class="btn btn-green" href="#" role="button">Main<button></button></a> -->
+                                <button type="button" class="btn btn-green">MAIN BUTTON</button>
                            </div>
                         </div>
 
@@ -166,11 +172,11 @@
 
                 </div>
             </div>
-
-
-
         </div>
     </div>
+
+
+
 </body>
 
 <script src='js/index.js'></script>

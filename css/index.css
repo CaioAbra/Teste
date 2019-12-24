@@ -33,6 +33,10 @@ label{
     border-radius: 8px;
 }
 
+.txt-green{
+    color: #1AD372 !important;
+}
+
 .bg-caixa{
     background: #FAFAFA !important;
 }
@@ -62,3 +66,5 @@ a.nav-link{
 a.nav-link:hover{
     color: #1AD372;
 }
+
+
