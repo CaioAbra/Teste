@@ -32,13 +32,13 @@
                 </div>
                 <ul class="nav flex-column text-sm-center text-md-left">
                     <li class="nav-item d-inline">
-                        <a class="nav-link" href="../Index.html"><i class="fas fa-cubes pr-3"></i>Index</a>
+                        <a class="nav-link" href="../Index.php"><i class="fas fa-cubes pr-3"></i>Index</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Dashboard.html"><i class="far fa-file  pr-3"></i>Dashboard</a>
+                        <a class="nav-link" href="Dashboard.php"><i class="far fa-file  pr-3"></i>Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="DataTable.html"><i class="far fa-star  pr-3"></i>Data Table</a>
+                        <a class="nav-link" href="DataTable.php"><i class="far fa-star  pr-3"></i>Data Table</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="far fa-id-badge  pr-3"></i>Opção 4</a>
@@ -59,13 +59,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item d-inline">
-                            <a class="nav-link" href="../Index.html"><i class="fas fa-cubes pr-3"></i>index</a>
+                            <a class="nav-link" href="../Index.php"><i class="fas fa-cubes pr-3"></i>index</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Dashboard.html"><i class="far fa-file  pr-3"></i>Dashboard</a>
+                            <a class="nav-link" href="Dashboard.php"><i class="far fa-file  pr-3"></i>Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="DataTable.html"><i class="far fa-star  pr-3"></i>Data Table</a>
+                            <a class="nav-link" href="DataTable.php"><i class="far fa-star  pr-3"></i>Data Table</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="far fa-id-badge  pr-3"></i>Opção 4</a>
