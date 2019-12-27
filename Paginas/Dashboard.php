@@ -85,11 +85,11 @@
                         <div class="col-12 px-0">
                             <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#indgerais"
+                                    <a class="nav-link active text-left pl-4" id="home-tab" data-toggle="tab" href="#indgerais"
                                         role="tab" aria-controls="home" aria-selected="true">Indicadores gerais</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#indetapas" role="tab"
+                                    <a class="nav-link text-left pl-4" id="profile-tab" data-toggle="tab" href="#indetapas" role="tab"
                                         aria-controls="etapas" aria-selected="false">Indicadores de etapas</a>
                                 </li>
                             </ul>
@@ -103,11 +103,11 @@
                                     <div class="card  mt-3 mt-md-auto mb-3 mb-md-auto">
 
                                         <div class="card-body">
-                                            <p class="card-title text-secondary">Cartões disponíveis</p>
+                                            <p class="card-title text-secondary  mb-3">Cartões disponíveis</p>
                                             <p class="card-text text-left">
-                                                <span class="border rounded-circle bg-light p-1 txt-green">
+                                                <span class="border rounded-circle bg-light p-2 txt-green">
                                                     <i class="far fa-credit-card"></i></span> 
-                                                    <span class="px-5 mx-2">0000</span>
+                                                    <span class="px-4 mx-3">0000</span>
                                                     <i class="fas fa-angle-right float-right"></i>
                                                     
                                             </p>
@@ -119,11 +119,11 @@
                                     <div class="card mt-3 mt-md-auto mb-3 mb-md-auto">
 
                                         <div class="card-body">
-                                            <p class="card-title text-secondary">Membros em análise</p>
+                                            <p class="card-title text-secondary  mb-3">Membros em análise</p>
                                             <p class="card-text text-left">
-                                                <span class="border rounded-circle bg-light p-1 text-primary"><i
+                                                <span class="border rounded-circle bg-light p-2 text-primary"><i
                                                         class="far fa-id-badge p-1"></i></span> <span
-                                                    class="px-5 mx-2">0000</span> <i
+                                                    class="px-4 mx-3">0000</span> <i
                                                     class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
@@ -134,10 +134,10 @@
                                     <div class="card mt-3 mt-md-auto mb-3 mb-md-auto">
 
                                         <div class="card-body">
-                                            <p class="card-title text-secondary">Membros cadastrados</p>
+                                            <p class="card-title text-secondary mb-3">Membros cadastrados</p>
                                             <p class="card-text text-left">
-                                                <span class="border rounded-circle bg-light p-1 text-primary"><i class="fas fa-user-check p-1"></i></span> <span
-                                                    class="px-5 mx-2">0000</span> <i
+                                                <span class="border rounded-circle bg-light p-2 text-primary"><i class="fas fa-user-check p-1"></i></span> <span
+                                                    class="px-4 mx-3">0000</span> <i
                                                     class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
