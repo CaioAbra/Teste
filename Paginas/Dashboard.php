@@ -104,11 +104,12 @@
 
                                         <div class="card-body">
                                             <p class="card-title text-secondary">Cartões disponíveis</p>
-                                            <p class="card-text">
-                                                <span class="border rounded-circle bg-light p-1 txt-green"><i
-                                                        class="far fa-credit-card"></i></span> <span
-                                                    class="px-4">0000</span> <i
-                                                    class="fas fa-angle-right float-right"></i>
+                                            <p class="card-text text-left">
+                                                <span class="border rounded-circle bg-light p-1 txt-green">
+                                                    <i class="far fa-credit-card"></i></span> 
+                                                    <span class="px-5 mx-2">0000</span>
+                                                    <i class="fas fa-angle-right float-right"></i>
+                                                    
                                             </p>
                                         </div>
                                     </div>
@@ -119,10 +120,10 @@
 
                                         <div class="card-body">
                                             <p class="card-title text-secondary">Membros em análise</p>
-                                            <p class="card-text">
+                                            <p class="card-text text-left">
                                                 <span class="border rounded-circle bg-light p-1 text-primary"><i
                                                         class="far fa-id-badge p-1"></i></span> <span
-                                                    class="px-4">0000</span> <i
+                                                    class="px-5 mx-2">0000</span> <i
                                                     class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
@@ -134,10 +135,9 @@
 
                                         <div class="card-body">
                                             <p class="card-title text-secondary">Membros cadastrados</p>
-                                            <p class="card-text">
-                                                <span class="border rounded-circle bg-light p-1 text-primary"><i
-                                                        class="fas fa-check p-1"></i></span> <span
-                                                    class="px-4">0000</span> <i
+                                            <p class="card-text text-left">
+                                                <span class="border rounded-circle bg-light p-1 text-primary"><i class="fas fa-user-check p-1"></i></span> <span
+                                                    class="px-5 mx-2">0000</span> <i
                                                     class="fas fa-angle-right float-right"></i>
                                             </p>
                                         </div>
